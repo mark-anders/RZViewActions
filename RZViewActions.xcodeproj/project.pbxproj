@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9A66C5221C2516E500BF91A2 /* RZViewActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A66C5211C2516E500BF91A2 /* RZViewActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A66C52B1C25174C00BF91A2 /* UIView+RZViewActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A66C5291C25174C00BF91A2 /* UIView+RZViewActions.h */; };
+		9A66C52B1C25174C00BF91A2 /* UIView+RZViewActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A66C5291C25174C00BF91A2 /* UIView+RZViewActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A66C52C1C25174C00BF91A2 /* UIView+RZViewActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A66C52A1C25174C00BF91A2 /* UIView+RZViewActions.m */; };
 /* End PBXBuildFile section */
 
@@ -181,7 +181,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -222,7 +222,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -283,6 +283,7 @@
 				9A66C5281C2516E500BF91A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
