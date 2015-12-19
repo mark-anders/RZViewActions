@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A6E484A1C238B1A00EB82E9 /* UIView+RZViewActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A6E48481C238B1A00EB82E9 /* UIView+RZViewActions.h */; };
-		9A6E484B1C238B1A00EB82E9 /* UIView+RZViewActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6E48491C238B1A00EB82E9 /* UIView+RZViewActions.m */; };
-		9A6E484D1C238D2D00EB82E9 /* RZViewActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A6E484C1C238D2D00EB82E9 /* RZViewActions.h */; };
+		9A66C5221C2516E500BF91A2 /* RZViewActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A66C5211C2516E500BF91A2 /* RZViewActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A66C52B1C25174C00BF91A2 /* UIView+RZViewActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A66C5291C25174C00BF91A2 /* UIView+RZViewActions.h */; };
+		9A66C52C1C25174C00BF91A2 /* UIView+RZViewActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A66C52A1C25174C00BF91A2 /* UIView+RZViewActions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A6E483D1C238A4B00EB82E9 /* RZViewActions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RZViewActions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A6E48421C238A4B00EB82E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A6E48481C238B1A00EB82E9 /* UIView+RZViewActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RZViewActions.h"; sourceTree = "<group>"; };
-		9A6E48491C238B1A00EB82E9 /* UIView+RZViewActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RZViewActions.m"; sourceTree = "<group>"; };
-		9A6E484C1C238D2D00EB82E9 /* RZViewActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZViewActions.h; sourceTree = SOURCE_ROOT; };
+		9A66C51E1C2516E500BF91A2 /* RZViewActions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RZViewActions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A66C5211C2516E500BF91A2 /* RZViewActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RZViewActions.h; sourceTree = "<group>"; };
+		9A66C5231C2516E500BF91A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A66C5291C25174C00BF91A2 /* UIView+RZViewActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RZViewActions.h"; sourceTree = "<group>"; };
+		9A66C52A1C25174C00BF91A2 /* UIView+RZViewActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RZViewActions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9A6E48391C238A4B00EB82E9 /* Frameworks */ = {
+		9A66C51A1C2516E500BF91A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,29 +31,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9A6E48331C238A4B00EB82E9 = {
+		9A66C5141C2516E400BF91A2 = {
 			isa = PBXGroup;
 			children = (
-				9A6E483F1C238A4B00EB82E9 /* RZViewActions */,
-				9A6E483E1C238A4B00EB82E9 /* Products */,
+				9A66C5201C2516E500BF91A2 /* RZViewActions */,
+				9A66C51F1C2516E500BF91A2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9A6E483E1C238A4B00EB82E9 /* Products */ = {
+		9A66C51F1C2516E500BF91A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A6E483D1C238A4B00EB82E9 /* RZViewActions.framework */,
+				9A66C51E1C2516E500BF91A2 /* RZViewActions.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A6E483F1C238A4B00EB82E9 /* RZViewActions */ = {
+		9A66C5201C2516E500BF91A2 /* RZViewActions */ = {
 			isa = PBXGroup;
 			children = (
-				9A6E484C1C238D2D00EB82E9 /* RZViewActions.h */,
-				9A6E48421C238A4B00EB82E9 /* Info.plist */,
-				9A6E48481C238B1A00EB82E9 /* UIView+RZViewActions.h */,
-				9A6E48491C238B1A00EB82E9 /* UIView+RZViewActions.m */,
+				9A66C5211C2516E500BF91A2 /* RZViewActions.h */,
+				9A66C5291C25174C00BF91A2 /* UIView+RZViewActions.h */,
+				9A66C52A1C25174C00BF91A2 /* UIView+RZViewActions.m */,
+				9A66C5231C2516E500BF91A2 /* Info.plist */,
 			);
 			path = RZViewActions;
 			sourceTree = "<group>";
@@ -61,26 +61,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9A6E483A1C238A4B00EB82E9 /* Headers */ = {
+		9A66C51B1C2516E500BF91A2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A6E484A1C238B1A00EB82E9 /* UIView+RZViewActions.h in Headers */,
-				9A6E484D1C238D2D00EB82E9 /* RZViewActions.h in Headers */,
+				9A66C52B1C25174C00BF91A2 /* UIView+RZViewActions.h in Headers */,
+				9A66C5221C2516E500BF91A2 /* RZViewActions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9A6E483C1C238A4B00EB82E9 /* RZViewActions */ = {
+		9A66C51D1C2516E500BF91A2 /* RZViewActions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A6E48451C238A4B00EB82E9 /* Build configuration list for PBXNativeTarget "RZViewActions" */;
+			buildConfigurationList = 9A66C5261C2516E500BF91A2 /* Build configuration list for PBXNativeTarget "RZViewActions" */;
 			buildPhases = (
-				9A6E48381C238A4B00EB82E9 /* Sources */,
-				9A6E48391C238A4B00EB82E9 /* Frameworks */,
-				9A6E483A1C238A4B00EB82E9 /* Headers */,
-				9A6E483B1C238A4B00EB82E9 /* Resources */,
+				9A66C5191C2516E500BF91A2 /* Sources */,
+				9A66C51A1C2516E500BF91A2 /* Frameworks */,
+				9A66C51B1C2516E500BF91A2 /* Headers */,
+				9A66C51C1C2516E500BF91A2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -88,42 +88,42 @@
 			);
 			name = RZViewActions;
 			productName = RZViewActions;
-			productReference = 9A6E483D1C238A4B00EB82E9 /* RZViewActions.framework */;
+			productReference = 9A66C51E1C2516E500BF91A2 /* RZViewActions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9A6E48341C238A4B00EB82E9 /* Project object */ = {
+		9A66C5151C2516E400BF91A2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Raizlabs;
 				TargetAttributes = {
-					9A6E483C1C238A4B00EB82E9 = {
-						CreatedOnToolsVersion = 7.1.1;
+					9A66C51D1C2516E500BF91A2 = {
+						CreatedOnToolsVersion = 7.2;
 					};
 				};
 			};
-			buildConfigurationList = 9A6E48371C238A4B00EB82E9 /* Build configuration list for PBXProject "RZViewActions" */;
+			buildConfigurationList = 9A66C5181C2516E400BF91A2 /* Build configuration list for PBXProject "RZViewActions" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 9A6E48331C238A4B00EB82E9;
-			productRefGroup = 9A6E483E1C238A4B00EB82E9 /* Products */;
+			mainGroup = 9A66C5141C2516E400BF91A2;
+			productRefGroup = 9A66C51F1C2516E500BF91A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A6E483C1C238A4B00EB82E9 /* RZViewActions */,
+				9A66C51D1C2516E500BF91A2 /* RZViewActions */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9A6E483B1C238A4B00EB82E9 /* Resources */ = {
+		9A66C51C1C2516E500BF91A2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -133,18 +133,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9A6E48381C238A4B00EB82E9 /* Sources */ = {
+		9A66C5191C2516E500BF91A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A6E484B1C238B1A00EB82E9 /* UIView+RZViewActions.m in Sources */,
+				9A66C52C1C25174C00BF91A2 /* UIView+RZViewActions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9A6E48431C238A4B00EB82E9 /* Debug */ = {
+		9A66C5241C2516E500BF91A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -181,7 +181,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -191,7 +191,7 @@
 			};
 			name = Debug;
 		};
-		9A6E48441C238A4B00EB82E9 /* Release */ = {
+		9A66C5251C2516E500BF91A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,7 +222,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -232,7 +232,7 @@
 			};
 			name = Release;
 		};
-		9A6E48461C238A4B00EB82E9 /* Debug */ = {
+		9A66C5271C2516E500BF91A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -248,7 +248,7 @@
 			};
 			name = Debug;
 		};
-		9A6E48471C238A4B00EB82E9 /* Release */ = {
+		9A66C5281C2516E500BF91A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -267,25 +267,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A6E48371C238A4B00EB82E9 /* Build configuration list for PBXProject "RZViewActions" */ = {
+		9A66C5181C2516E400BF91A2 /* Build configuration list for PBXProject "RZViewActions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A6E48431C238A4B00EB82E9 /* Debug */,
-				9A6E48441C238A4B00EB82E9 /* Release */,
+				9A66C5241C2516E500BF91A2 /* Debug */,
+				9A66C5251C2516E500BF91A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A6E48451C238A4B00EB82E9 /* Build configuration list for PBXNativeTarget "RZViewActions" */ = {
+		9A66C5261C2516E500BF91A2 /* Build configuration list for PBXNativeTarget "RZViewActions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A6E48461C238A4B00EB82E9 /* Debug */,
-				9A6E48471C238A4B00EB82E9 /* Release */,
+				9A66C5271C2516E500BF91A2 /* Debug */,
+				9A66C5281C2516E500BF91A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9A6E48341C238A4B00EB82E9 /* Project object */;
+	rootObject = 9A66C5151C2516E400BF91A2 /* Project object */;
 }
