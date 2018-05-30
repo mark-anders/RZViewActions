@@ -36,7 +36,7 @@
 @class RZViewAction;
 @class RZViewActionSequence;
 
-typedef void (^RZViewActionBlock)();
+typedef void (^RZViewActionBlock)(void);
 typedef void (^RZViewActionCompletion)(BOOL finished);
 
 NS_ASSUME_NONNULL_BEGIN
@@ -113,7 +113,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  before executing the next one.
  *  Completion blocks for group actions are not invoked until after all actions in the group have finished.
  *
- *  @param actionSequence An array of RZViewActions to run in tandem.
+ *  @param actionGroup An array of RZViewActions to run in tandem.
  *
  *  @note Each element in the actionGroup array may be any type of RZViewAction.
  *  This means that you can comebine group and sequence actions in any way you see fit.
